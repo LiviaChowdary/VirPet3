@@ -7,25 +7,29 @@
     <script src="p5.play.js"></script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
 
 <script>
   // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyBGVtfP_2euxetzQbZNrweE7rfH3BDPNzY",
-    authDomain: "virtualpet2.firebaseapp.com",
-    databaseURL: "https://virtualpet2.firebaseio.com",
-    projectId: "virtualpet2",
-    storageBucket: "virtualpet2.appspot.com",
-    messagingSenderId: "360466617372",
-    appId: "1:360466617372:web:5daa5615dc368ecae7bbd9"
+    apiKey: "AIzaSyDeZAgjVABuZbHi7oF8dU6AFZxuItZU99Y",
+    authDomain: "virtualpet1-8f755.firebaseapp.com",
+    databaseURL: "https://virtualpet1-8f755.firebaseio.com",
+    projectId: "virtualpet1-8f755",
+    storageBucket: "virtualpet1-8f755.appspot.com",
+    messagingSenderId: "212796572977",
+    appId: "1:212796572977:web:f393182c46b3393710dc10",
+    measurementId: "G-Z5CXVTLZ19"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </script>
 
 <script src="js/Food.js"></script>
